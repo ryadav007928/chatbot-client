@@ -1,0 +1,55 @@
+/* filepath: d:\practice\socketio\client\src\componats\Chat.css */
+
+#heading {
+    text-align: center;
+    font-size: 2rem;
+    color: #4CAF50;
+    margin-top: 20px;
+}
+
+#input {
+    width: 50%;
+    padding: 10px;
+    margin: 10px auto;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+#send {
+    display: block;
+    width: 8%;
+    padding: 10px;
+    margin: 10px auto;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+#send:hover {
+    background-color: #45a049;
+}
+
+div {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#recived{
+    width: 50%;
+    height: 500px;
+    overflow-y: auto;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    font-size: 1rem;
+    color: #333;
+    whiteSpace: 'pre-wrap'
+    
+}
