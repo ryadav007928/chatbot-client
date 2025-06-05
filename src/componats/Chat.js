@@ -9,7 +9,7 @@ const Chat = () => {
 
     // Establish a connection to the Socket.IO server
 // Replace 'http://localhost:3000' with your server URL if different
-    const socket = useMemo(() => io('http://localhost:3000', { }), []); // Empty dependency array ensures this runs only once when the component mounts
+    const socket = useMemo(() => io('https://chatbot-server-khrn.onrender.com', { }), []); // Empty dependency array ensures this runs only once when the component mounts
 
     const [message, setMessage] = useState(''); // State to hold the message input
     const [receivedMessages, setReceivedMessages] = useState(' '); // State to hold received messages
