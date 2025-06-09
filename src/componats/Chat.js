@@ -2,7 +2,7 @@ import React, { useMemo } from 'react';
 import './Chat.css'; // Importing the CSS file for styling
 import { useEffect,useState} from 'react';
 // Importing the socket.io-client library to handle real-time communication
-import io from 'socket.io-client';
+import {io} from 'socket.io-client';
 
 
 const Chat = () => {
