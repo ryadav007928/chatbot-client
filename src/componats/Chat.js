@@ -9,7 +9,7 @@ const Chat = () => {
 
     // Establish a connection to the Socket.IO server
 // Replace 'http://localhost:3000' with your server URL if different
-    const socket = useMemo(() => io('https://chatbot-server-khrn.onrender.com', {
+    const socket = useMemo(() => io('http://localhost:3000', {
   withCredentials: true,
   transports: ["websocket"], // Bypass CORS for polling
   reconnectionAttempts: 3,
